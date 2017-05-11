@@ -1,4 +1,4 @@
-FROM golang:wheezy
+FROM golang:stretch
 
 RUN mkdir -p /go/src/app
 WORKDIR /go/src/app
